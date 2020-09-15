@@ -1,13 +1,13 @@
 package com.company.pe.pucp.edu.telecom.entity;
 
 public class Instructor extends Docente{
-    private Integer ciclo;
+    private String ciclo;
 
-    public Integer getCiclo() {
+    public String getCiclo() {
         return ciclo;
     }
 
-    public void setCiclo(Integer ciclo) {
+    public void setCiclo(String ciclo) {
         this.ciclo = ciclo;
     }
 }
