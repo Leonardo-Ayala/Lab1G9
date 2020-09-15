@@ -16,7 +16,7 @@ public class Main {
         System.out.println("3. Buscar Usuario");
         System.out.println("4. Escribir Directorio");
 
-        System.out.print("Ingrese un numero:");
+        System.out.print("Ingrese una opcion:");
 
         String opcion;
         Scanner teclado = new Scanner(System.in);
@@ -32,7 +32,7 @@ public class Main {
                 System.out.println("2. Jefe de Practica");
                 System.out.println("3. Profesor");
                 System.out.println("4. Personal Administrativo");
-                System.out.print("Ingrese un numero:");
+                System.out.print("Ingrese una opcion:");
                 String tipo;
                 Scanner tecl = new Scanner(System.in);
                 tipo = tecl.nextLine();
